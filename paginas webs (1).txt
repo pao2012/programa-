@@ -1,0 +1,82 @@
+@echo off
+  title welcome
+ : Bienvenido
+ echo te damos la bienvenida al instituto rosario castellanos 
+pause 
+cls 
+
+echo 1 - https://www.google.com/
+echo 2 - https://es-la.facebook.com/
+echo 3 - https://www.instagram.com/
+echo 4 - https://twitter.com/?lang=es
+echo 5 - https://ngl.link/
+echo 6 - https://www.whatsapp.com/?lang=es
+echo 7 - https://www.tiktok.com/es/
+echo 8 - salir 
+echo necesitas algo mas 
+
+ set /p opt=
+ if %opt% == 1 goto option1
+ if %opt% == 2 goto option2
+ if %opt% == 3 goto option3
+ if %opt% == 4 goto option4
+ if %opt% == 5 goto option5
+ if %opt% == 6 goto option6
+ if %opt% == 7 goto option7 
+ if %opt% == 8 goto option8
+
+goto menu
+:option1
+start https://www.google.com/
+msg * Bienvenidos a google *
+msg * Gracias somos LCDN *
+cls 
+
+goto menu 
+:option2
+start https://es-la.facebook.com/
+msg * Bienvenidos a facebook *
+msg * Gracias somos LCDN *
+cls
+
+goto menu 
+:option3 
+start https://www.instagram.com/
+msg * Bienvenidos a instagram *
+msg * Gracias somos LCDN *
+cls 
+
+goto menu 
+:option4
+start https://twitter.com/?lang=es
+msg * Bienvenidos a twitter *
+msg * Gracias somos LCDN *
+cls
+
+goto menu 
+:option5
+start https://ngl.link/
+msg * Bienvenidos a ngl *
+msg * Gracias somos LCDN *
+cls 
+
+goto menu 
+:option6 
+start https://www.whatsapp.com/?lang=es
+msg * Bienvenidos a whattsap *
+msg * Gracias somos LCDN *
+cls 
+
+goto menu 
+:option7 
+start https://www.tiktok.com/es/
+msg * Bienvenidos a tik tok *
+msg * Gracias somos LCDN *
+cls 
+
+goto menu 
+:option8 
+msg * Gracias somos LCDN *
+exit 
+
+ 
